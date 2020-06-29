@@ -44,6 +44,7 @@ class postfix (
                 $selfsigned_digest                   = 'sha256',
                 $tlscert                             = undef,
                 $tlspk                               = undef,
+                $tlsCAfile                           = undef,
                 $install_mailclient                  = true,
                 $default_process_limit               = '100',
                 $smtpd_client_connection_count_limit = '10',
